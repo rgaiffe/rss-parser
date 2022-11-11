@@ -1,7 +1,7 @@
 package parser
 
 import (
-	"io/ioutil"
+	"io"
 	"strings"
 	"testing"
 )
@@ -17,7 +17,7 @@ func TestGetFeedsFromRssParser(t *testing.T) {
 		</channel>
 	</rss>`
 
-	reader := ioutil.NopCloser(strings.NewReader(xmlData))
+	reader := io.NopCloser(strings.NewReader(xmlData))
 	feed, _ := getFeedsFromRssParser(reader)
 
 	t.Run("get link from items", func(t *testing.T) {
