@@ -15,4 +15,4 @@
 # vendor/
 # Env file
 .env
-./configs/config.yaml
+configs/config.yaml
