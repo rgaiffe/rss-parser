@@ -5,7 +5,12 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: gomod
+    directory: /
+    labels:
+      - aspect/depencencies 📦️
+      - domain/obvious 🟩
+      - state/triage 🚦
     schedule:
-      interval: "weekly"
+      day: sunday
+      interval: weekly
