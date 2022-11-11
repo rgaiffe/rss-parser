@@ -60,7 +60,7 @@ func rssParser(feedUri string) error {
 	defer ret.Body.Close()
 
 	if ret.StatusCode != http.StatusOK {
-		return errors.New(fmt.Sprintf("Error: %d", ret.StatusCode))
+		return fmt.Errorf("Error: %d", ret.StatusCode)
 	}
 	log.Printf("Success: %d\n", ret.StatusCode)
 
