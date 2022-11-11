@@ -12,5 +12,5 @@ updates:
       - domain/obvious 🟩
       - state/triage 🚦
     schedule:
-      day: sunday
+      day: friday
       interval: weekly
