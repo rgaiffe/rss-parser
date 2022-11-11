@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Flush Redis",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "flush-redis"
+      ],
+      "icon": {
+        "id": "run-view-icon",
+        "color": "terminal.ansiRed"
+      },
+      "presentation": {
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
