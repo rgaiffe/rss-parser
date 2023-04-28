@@ -3,7 +3,7 @@ module github.com/rgaiffe/rss-parser
 go 1.19
 
 require (
-	github.com/bwmarrin/discordgo v0.26.1
+	github.com/bwmarrin/discordgo v0.27.1
 	github.com/go-redis/redis/v9 v9.0.0-rc.1
 	github.com/mmcdole/gofeed v1.1.3
 	github.com/spf13/viper v1.14.0
