@@ -6,7 +6,7 @@ require (
 	github.com/bwmarrin/discordgo v0.27.1
 	github.com/go-redis/redis/v9 v9.0.0-rc.1
 	github.com/mmcdole/gofeed v1.2.1
-	github.com/spf13/viper v1.18.0
+	github.com/spf13/viper v1.18.1
 )
 
 require (
