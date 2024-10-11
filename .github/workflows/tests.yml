@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        goVersion: ["1.23"]
+        goVersion: ["1.21", "1.23"]
     steps:
       - name: Checkout project
         uses: actions/checkout@v3
