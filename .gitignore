@@ -15,4 +15,5 @@
 # vendor/
 # Env file
 .env
-configs/config.yaml
+configs/config.toml
+rss-parser

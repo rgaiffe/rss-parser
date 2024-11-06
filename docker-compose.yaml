@@ -1,0 +1,7 @@
+services:
+  # Use for local development
+  redis:
+    image: redis:7.4-alpine3.20
+    container_name: redis
+    ports:
+      - "6379:6379"
