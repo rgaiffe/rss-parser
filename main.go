@@ -11,7 +11,7 @@ import (
 // Load config file locate on ./config/config.yaml
 func init() {
 	viper.SetConfigName("config")
-	viper.SetConfigType("yaml")
+	viper.SetConfigType("toml")
 	viper.AddConfigPath("./configs")
 
 	replacer := strings.NewReplacer(".", "_", "-", "_")
